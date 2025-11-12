@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 matplotlib.use('TkAgg')
 
-df = pd.read_csv("spiralka.csv", header = None)
+df = pd.read_csv("../spiralka.csv", header = None)
 df.columns = ["X", "Y"]
 df["Y2"] = df["Y"] * 3
 
