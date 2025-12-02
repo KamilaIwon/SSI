@@ -28,6 +28,7 @@ def ksrednich(M, m, iters, odległość):
             groups.append(u)
             X_gr = []
             for j in range(m):
+                pass
                 
 
 
